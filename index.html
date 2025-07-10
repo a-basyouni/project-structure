@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog Post Webpage Project Structure</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    strong>code {
+      color: rgb(19, 142, 19);
+    }
+  </style>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+  <header class="bg-green-600 text-white py-6 text-center shadow">
+    <h1 class="text-3xl font-bold">Blog Post Webpage - Project Structure</h1>
+  </header>
+
+  <main class="max-w-5xl mx-auto mt-10 px-6 py-10 bg-white rounded-lg shadow-md">
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold mb-4">Description</h2>
+      <p class="text-lg">Create a blog post webpage that includes a list of recent posts and displays full post content.
+        The page should be well-organized, visually balanced, and easy to read.</p>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold mb-4">Objective</h2>
+      <p class="text-lg mb-4">This project is designed to help you apply your knowledge of <strong>CSS Grid</strong> and
+        <strong>semantic HTML</strong> by building a structured, responsive webpage. Through this project, you will
+        practice:
+      </p>
+      <ul class="list-decimal list-inside space-y-2">
+        <li>Creating a structured layout using semantic HTML elements like <strong><code>header</code>,
+            <code>main</code>,
+            <code>aside</code>, and <code>footer</code>. </strong>
+        </li>
+        <li>Positioning elements in a grid using properties like
+          <strong>
+            <code>display: grid</code>,
+            <code>grid-template-columns</code>, and <code>grid-template-areas</code>.
+          </strong>
+        </li>
+        <li>Controlling alignment and spacing with properties such as
+          <strong>
+
+            <code>gap</code>, <code>justify-content</code>,
+            and <code>align-items</code>.
+          </strong>
+        </li>
+        <li>Making elements span across grid areas using
+          <strong>
+
+            <code>grid-column</code> and <code>grid-row</code>.
+          </strong>
+        </li>
+      </ul>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold mb-4">Project Practical Requirements</h2>
+      <ul class="list-decimal list-inside space-y-4">
+        <li><strong>Header</strong>
+          <ul class="list-disc list-inside ml-5 space-y-2">
+            <li>Contains a logo labeled:
+              <code>
+                <strong>    
+                  MyBlog
+                </strong>
+             </code>
+            </li>
+            <li>Includes a navigation bar with links:
+              <strong>
+                <span>
+                <code>Home</code>, <code>Posts</code>, <code>About</code>,
+                <code>Contact</code>
+                  </span>
+              </strong>
+            </li>
+            <li>The logo is positioned beside the navigation</li>
+          </ul>
+        </li>
+        <li><strong>Aside (Left Side)</strong>
+          <ul class="list-disc list-inside ml-5 space-y-2">
+            <li>Displays a list of at least 3 recent posts</li>
+          </ul>
+        </li>
+        <li><strong>Main Content Area</strong>
+          <ul class="list-disc list-inside ml-5 space-y-2">
+            <li>Displays blog posts to the right of the sidebar</li>
+          </ul>
+        </li>
+        <li><strong>Posts</strong>
+          <ul class="list-disc list-inside ml-5 space-y-2">
+            <li>Each post includes a title and body</li>
+          </ul>
+        </li>
+        <li><strong>Footer</strong>
+          <ul class="list-disc list-inside ml-5 space-y-2">
+            <li>Appears at the bottom of the page</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold mb-4">Project Layout</h2>
+      <p class="text-lg mb-4">The layout should be implemented using <strong>CSS Grid</strong> with the following
+        structure:</p>
+      <ul class="list-decimal list-inside space-y-2">
+        <li>A grid container defining the areas:
+          <strong>
+
+            <code>header</code>, <code>aside</code>, <code>main</code>, and
+            <code>footer</code>.
+          </strong>
+        </li>
+        <li>Use <strong><code>grid-template-areas</code> </strong> to assign regions.</li>
+        <li>The page should form two columns:
+          <ul class="list-disc list-inside ml-5 space-y-1">
+            <li><strong>Aside</strong>: ~25% width</li>
+            <li><strong>Main content</strong>: ~75% width</li>
+          </ul>
+        </li>
+        <li>The header spans the full top row; the footer spans the full bottom row.</li>
+        <li>Ensure good spacing and responsive behavior on smaller screens.</li>
+      </ul>
+    </section>
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold mb-4">Expected Output</h2>
+      <div class="mb-10">
+        <img src="/images/output.png" alt="">
+      </div>
+    </section>
+    <footer class="bg-gray-800 text-white text-center py-4 mt-10">
+      &copy; 2025 Abdallah Basyouni
+    </footer>
+</body>
+
+</html>
